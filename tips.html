@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Beech Lake Animal Hospital</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+        <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1 class="webtitle"><img src="" alt="Beech Lake Animal Hospital"></h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li> 
+          <li><a href="appointments.html">Appointments</a></li>
+          <li><a href="review.html">Review</a></li>
+          <li><a href="tips.html" class="selected">Tips</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="w3-content w3-section" style="max-width:900px">
+  <img class="mySlides w3-animate-fading2" src="img/Article1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading2" src="img/Article2.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article3.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article4.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article5.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article6.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article7.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article8.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article9.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article10.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article11.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article12.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article13.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article14.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article15.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article16.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading2" src="img/Article17.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 20000);    
+}
+</script>
+    <footer>
+      <a href="https://www.facebook.com/Tbirds-Pizzeria-Grille-108432519194476/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p class="copy">&copy; 2018 Beech Lake Animal Hospital.</p>
+    </footer>
+    </body>
+    </html>

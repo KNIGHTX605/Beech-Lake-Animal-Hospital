@@ -1,0 +1,477 @@
+/*
+  body {
+ font-family: 'Gochi Hand', cursive;
+}
+*/
+  header {
+    border-top: 10px solid #00cc7a;
+  }
+  .home-header{
+  text-align:center;}
+  
+
+
+
+
+
+
+
+
+heading{
+float: left;
+margin: 0;
+padding: 5px 0 0 0;
+  width:100%;
+}
+
+
+a { 
+  text-decoration: none;
+}
+
+ photos { 
+  max-width: 100%;
+}
+
+ img { 
+  max-width: 100%;
+}
+
+#logo { 
+  text-align:center;
+  margin: 0;
+}
+
+
+.centered { 
+  text-align:center;
+  margin: 0;}
+
+
+.centered02 { 
+  text-align:center;
+  margin-left: 70px;}
+
+/*************HEADER**********/
+h1 {
+  margin: 15px 0;
+  font-size: 2.5em;
+   font-weight: normal;
+    line-height: 0.8em; 
+}
+.home-text{ 
+color: #0f9fff;
+}
+/*header*/
+header {
+   background-color: #00cc7a;
+   border-color: #00cc7a;
+   margin: auto;
+}
+
+
+.webtitle {
+    font-family: 'Kalam', cursive;
+    background-color: #00cc7a;
+    color: #fff;
+}
+
+/*navagation*/
+nav {
+   font-family: 'Gochi Hand', cursive;
+    color: #0000ff;
+  background-color:#00cc7a;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.8);
+/*
+   text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+*/
+}
+
+nav ul {
+    list-style: none;
+  margin: 0 10px 5px 0;
+  padding: 0;
+}
+nav li {display: inline-block;}
+nav a{
+  font-weight:800;
+  padding: 0px 10px;}
+
+footer { 
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  background-color: #00cc7a;}
+    
+  .social-icon  {
+      width: 90px;
+      height: 90px;
+      margin: 0 5px;
+  }
+    
+
+/***************
+PAGE: home
+***************/
+
+.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+.w3-animate-fading2{-webkit-animation:fading 20s infinite;animation:fading 20s infinite}
+.main-page {
+ max-width: 900px;
+  text-align:center;
+ margin: 0 auto;
+  padding: 0 20%;
+  opacity: 0.65;
+}
+
+.main-page01 {
+ max-width: 900px;
+
+ margin: 0 auto;
+  padding: 10% 1%;
+}
+
+.main-page03 {
+max-width: 900px;
+  text-align:center;
+
+
+  opacity: 0.65;
+}
+
+.home-header {
+  
+ max-width: 940px;
+ margin: 0 auto;
+/*  padding: 1% 20%;*/
+    margin-left: -40px;
+  margin-top: -100px;
+  margin-bottom: 10px;
+text-align: center;
+}
+
+.home-header li {
+   font-family: 'Gochi Hand', cursive;
+  display: inline-block;
+  padding: 1px 5px;
+  text-align:center;
+   float: center;
+  font-size: 1.2em;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+.home-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.Home-colors1{
+  font-family: 'Kalam', cursive;
+color: #016d99;
+  font-size: 20px;
+  text-align: center;
+}
+
+   .home-color{
+  font-family: 'Gochi Hand', cursive;
+color: #016d99;
+  font-size: 20px;
+}
+   
+.Home-colors a:hover{
+  font-family: 'Kalam', cursive;
+color: #000;
+text-align:center;
+  font-size: 40px;
+}
+
+.Home-color{
+  font-family: 'Kalam', cursive;
+color: #016d99;
+  font-size: 30px;
+  text-align: center;
+}
+.Home-colors{
+  font-family: 'Kalam', cursive;
+color: #016d99;
+  font-size: 40px;
+  text-align: center;
+}
+
+  .Home-colors2{
+  font-family: 'Gochi Hand', cursive;
+color: #016d99;
+  font-size: 1.5em;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+  .h3-4-1{
+  color: #016d99;
+    font-size: 30px;
+
+    text-align: center;
+
+}
+
+
+.h3-4-2{
+  color: #016d99;
+  font-size:30px;
+
+  text-align: center;
+}
+
+.h3-4-2 a:hover{
+color: #000;
+  font-size: 30px;
+}
+  .h3-4-1 a:hover{
+color: #000;
+  font-size: 30px;
+}
+
+
+
+/**colors*/
+.copy02{ color: #000097;
+font-size: 1.2em;
+}
+.copy{ color: #0f4f97;
+font-size: 1.2em;
+}
+
+p{ color: #000;}
+nav a , nav:visited{
+  color: #fff;
+ }
+.menu-header a , .menu-header :visited{
+  color: #000;}
+
+ nav a.selected, nav a:hover {
+  color: #000000;}
+
+.menu-header a.selected,  .menu-header a:hover {
+  color: #0D5D9C;}
+/* site body*/
+body {
+    color: #000;
+}
+
+
+
+.owner
+{
+    padding-top: 15px;
+text-align: center;
+}
+.copy{
+    margin-bottom: 0px;
+}
+
+/******************
+PAGE: CONTACT
+******************/
+
+#contactheader {
+    font-family: 'Kalam', cursive;
+    text-decoration: underline;
+    position: relative;
+    text-align: center;
+}
+
+#hours {
+    font-family: 'Kalam', cursive;
+    text-decoration: underline;
+    position: relative;
+}
+
+#tablehours {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+tr:nth-child(odd) {
+    background-color: rgba(0,204,122, .7);
+}
+
+
+.Review{
+
+  list-style: none;
+font-family: 'Kalam', cursive;
+font-size: 0.9em;
+
+}
+
+#map {
+    width: 100%;
+}
+
+
+/*********************************************
+PAGE: SERVICES
+*********************************************/
+
+.service{
+    font-family: 'Kalam', cursive;
+
+  margin: 15px 0;
+  font-size: 2.5em;
+   font-weight: normal;
+    line-height: 0.8em; 
+}
+
+.services {
+}    
+    
+.Banana {
+  font-family: 'Kalam', cursive;
+  width: 250px;
+  
+}
+ 
+.Banana h2 {
+  font: 40 40px/1.5 'Kalam', cursive;
+  margin: 0;
+  padding: 0;
+}
+ 
+.Banana ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.Banana li {
+  font: 200 20px/1.5 'Kalam', cursive;;
+  border-bottom: 1px solid #ccc;
+}
+ 
+.Banana li:last-child {
+  border: none;
+}
+ 
+.Banana li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+.Banana li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
+.Mango {
+  font-family: 'Kalam', cursive;
+  width: 250px;
+
+}
+ 
+.Mango h2 {
+  margin: 0;
+  padding-top: 10px;
+}
+ 
+.Mango ul {
+  
+  font-family: 'Kalam', cursive;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.Mango li {
+  font: 200 20px/1.5 'Kalam', cursive;;
+  border-bottom: 1px solid #ccc;
+}
+ 
+.Mango li:last-child {
+  border: none;
+}
+ 
+.Mango li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+.Mango li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
+
+
+
+
+
+
+
+
+
+/******************
+PAGE: APPOINTMENTS
+******************/
+
+form {
+	max-width: 90%;
+	background: #D6EAF8;
+	margin: 20px 5%;
+	text-align: center;
+	color: black;
+	padding: 10px;
+	font-size: 1.15em;
+	font-family: 'Old Standard TT', serif;
+}
+
+form h1{
+  font-size: 1.85em;
+	color: black;
+}
+
+form h2 {
+	text-decoration: underline;
+}
+
+form input, form select, form textarea {
+  margin: 10px 5px;
+}
+
+
+
+
+ 

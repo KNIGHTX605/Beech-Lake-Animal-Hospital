@@ -1,0 +1,427 @@
+@media screen and (min-width: 1px) {
+
+  header {
+    border-top: 10px solid #00cc7a;
+  }
+  .home-header{
+  text-align:center;
+  }
+  .contactitems{
+    text-align:center;
+  }
+  #hours{
+    text-align:center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+    .Home-colors2{
+  font-family: 'Gochi Hand', cursive;
+color: #016d99;
+
+  padding-top: 15px;
+  margin-top: 20px;
+
+}
+
+.Review li{
+font-size: 1.3em;
+list-style: none;
+font-family: 'Kalam', cursive;
+
+
+}
+
+ .owner
+{    padding-top: 15px;
+ 
+}
+  
+  .primary{
+    width: 40%;
+    float: left;
+  }
+  
+  .primary-2{
+    width: 50%;
+    float: left;
+  }
+  
+  .secondary {
+    width: 40%;
+    float: right;
+  }
+  
+  .secondary-2 {
+    width: 50%;
+    float: right;
+  }
+  
+  .home-header li{
+   font-family: 'Gochi Hand', cursive;
+  display: inline-block;
+  padding: 1px 5px;
+  text-align:center;
+      font-size: 1em;
+
+}
+  
+  .h3-4-1{
+  color: #016d99;
+    font-size: 30px;
+  margin-left: 40px;
+    text-align: center;
+
+}
+
+
+.h3-4-2{
+  color: #016d99;
+  font-size:30px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.h3-4-2 a:hover{
+color: #000;
+  font-size: 30px;
+}
+  .h3-4-1 a:hover{
+color: #000;
+  font-size: 30px;
+}
+ header {
+    border-top: 10px solid #00cc7a;
+  }
+
+  
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  /**********************************
+  PAGE: ABOUT
+  ***********************************/
+  
+  .profile-photo {
+    float: right;
+    margin: 20px 5% 80px 0;
+  }
+  
+  
+  .main-page03 {
+max-width: 900px;
+  text-align:center;
+ margin: 0 0 0 150px;
+font-size: 100px;
+  opacity: 0.65;
+}
+  
+
+  
+  
+}
+
+@media screen and (min-width: 660px) {
+
+  /**********************************
+  HEADER
+  ***********************************/
+ 
+ .primary-3{
+    width: 30%;
+    float: left;
+  }
+  
+.Review li{
+
+  list-style: none;
+font-family: 'Kalam', cursive;
+font-size: 1.5em;
+
+}
+  
+  .secondary-3 {
+    width: 50%;
+    float: right;
+  }
+  .owner
+{    padding-top: 15px;
+ padding-left: 100px;
+}
+  
+  .Home-colors1{
+  font-family: 'Gochi Hand', cursive;
+color: #016d99;
+  font-size: 40px;
+}
+
+
+  .Home-colors2{
+  font-family: 'Gochi Hand', cursive;
+color: #016d99;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-top: 10px;
+  padding-right: 40px;
+}
+
+
+
+  nav {
+/*    background: none;*/
+
+    font-size: 1.5em;
+
+  }
+  
+  #logo {
+    
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+    
+  
+  header {
+    border-bottom: 10px solid #00cc7a;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+.home-header{
+  text-align:center;
+  margin-left: 250px; /*the mess up*/
+  }
+  
+  
+
+.home-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+  .home-header {
+  
+ max-width: 940px;
+ margin: 0 auto;
+/*  padding: 1% 20%;*/
+  
+  margin-top: -100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Home-color{
+  font-family: 'Kalam', cursive;
+color: #016d99;
+  font-size: 50px;
+  text-align: center;
+}
+
+  
+.home-header li{
+  font-size: 1.5em;
+}
+
+  
+  .centered02 { 
+  text-align:center;
+  margin-left: 120px;
+}
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    float: left;
+    width: 50%;
+ }
+
+
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ #contactheader{
+  font-size: 2.5em;
+  position: relative;
+  width: 215px;
+  height: 46px;
+  left: 75px;
+  margin-bottom: 0px;
+}
+  
+.contactitems {
+  font-size: 1.2em;
+  width: 350px;
+  height: 22px;
+  position: relative;
+  text-align: left;
+  left: 50px;
+}
+
+#hours {
+  font-size: 2.5em;
+  position: relative;
+  height: 46px;
+  margin-bottom: 0px;
+  width: 1000px;
+  float: right;
+  right: 80px;
+  text-align: right;
+}
+
+#tablehours {
+  float: right;
+  position: relative;
+  height: 208px;
+  width: 218px;
+  right: 155px;
+  table-layout: fixed;
+}
+
+tr {
+  font-size:1.45em;
+}
+}
+
+@media screen and (min-width: 1000px) {
+
+ .primary-3{
+    width: 30%;
+    float: left;
+  }
+  
+
+  
+  .secondary-3 {
+    width: 55%;
+    float: right;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************
+Trevor's Code 
+TWO COLUMN LAYOUT
+***********************************/
+
+
+@media screen and (min-width: 520px) {
+
+ #primary {
+  width: 50%;
+  float: left;
+  padding-left: 50px;
+ }
+
+ #secondary {
+  padding-left: -30px;
+  width: 40%;
+  float: right;
+ }
+}
+
+#primary, #secondary {
+  font-size: 17px;
+  font-family: 'BioRhyme',  sans-serif;
+}
+#primary ul, #secondary ul {
+  list-style: ;
+}
+
+@media screen and (min-width: 1300px) {
+
+ #primary {
+  width: 30%;
+  float: left;
+  padding-left: 200px;
+ }
+
+ #secondary {
+  padding-right:80px;
+  margin-right: 100px;
+  width: 30%;
+  float: right;
+ }
+}
+
+#primary, #secondary {
+  font-size: 17px;
+  font-family: 'BioRhyme',  sans-serif;
+}
+#primary ul, #secondary ul {
+  list-style: none;
+}
+.Mango {
+  padding-bottom: 30px;
+}
+/**********************************
+End Of Trevor's Code
+***********************************/
